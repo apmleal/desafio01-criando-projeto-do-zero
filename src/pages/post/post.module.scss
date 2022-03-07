@@ -1,1 +1,39 @@
-// TODO
+.image {
+  width: 100vw;
+  height: 400px;
+  margin-bottom: 4rem;
+}
+
+.containerInfo {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  color: var(--gray-200);
+
+  div {
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-right: 0.5rem;
+    }
+
+    & + div {
+      margin-left: 2rem;
+    }
+  }
+}
+
+.containerContent {
+  margin-top: 2.6rem;
+
+  h2 {
+    margin-bottom: 2rem;
+  }
+
+  div {
+    color: var(--gray-100);
+    text-align: justify;
+  }
+}
